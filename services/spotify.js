@@ -1,8 +1,8 @@
 import SpotifyWebApi from 'spotify-web-api-node';
 
 var spotifyApi = new SpotifyWebApi({
-  clientId: 'eac584c6774143628c74ae97487e4ba8',
-  clientSecret: 'a51747df3e234f928d372a27470d3fd5',
+  clientId: 'CLIENT_ID',
+  clientSecret: 'CLIENT_SECRET',
   redirectUri: 'http://localhost:8379/callback'
 });
 
